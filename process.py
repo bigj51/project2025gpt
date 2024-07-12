@@ -123,6 +123,7 @@ def process_pdf(pdf_path):
             }
 
             # write a smaller version without the chunks
+            # the json is malformed b/c it here. should do it properly
             with open('processed_results.json', 'a') as f:
                 json.dump(processed_data, f, ensure_ascii=False, indent=4)
             

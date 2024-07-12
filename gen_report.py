@@ -5,7 +5,7 @@ from fpdf import FPDF, XPos, YPos
 import os
 
 # Load the JSON data
-with open('processed_results1.json') as f:
+with open('processed_results.json') as f:
     data = json.load(f)
 
 # Create directory for gauge images
