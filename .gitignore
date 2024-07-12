@@ -1,0 +1,6 @@
+# .gitignore
+
+keys.py
+/env
+/__pycache__
+/.git
